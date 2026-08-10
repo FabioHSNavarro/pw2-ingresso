@@ -3,6 +3,7 @@ import br.com.etec.ingresso.enums.CategoriaFilmeEnum;
 import br.com.etec.ingresso.enums.ClassificacaoIndicativaEnum;
 import br.com.etec.ingresso.enums.SimNaoEnum;
 import jdk.jshell.Snippet;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @Builder
 @Getter
 @Setter
+@AllArgsConstructor
 
 public class Filme {
     private Long id;
